@@ -12,4 +12,5 @@ RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/s
 # RUN echo "export VISIBLE=now" >> /etc/profile
   
 EXPOSE 22
-CMD ["/bin/bash"]
+# CMD ["/bin/bash"]
+CMD ["/usr/sbin/sshd", "-D"]

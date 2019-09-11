@@ -1,0 +1,6 @@
+version: '2'
+services:
+  node:
+    image: ubuntu:basic
+    ports:
+      - "49001-49010:22"
