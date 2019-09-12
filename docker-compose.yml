@@ -4,3 +4,4 @@ services:
     image: ubuntu:basic
     ports:
       - "49001-49010:22"
+      - "8080-8090:80"
